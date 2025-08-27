@@ -245,6 +245,8 @@ bar {
 gaps inner 5
 
 output eDP-1 scale 1.25
+output eDP-1 allow_tearing yes
+output eDP-1 max_render_time off
 
 # POLKIT
 
