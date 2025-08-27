@@ -246,9 +246,7 @@ bar {
 # window gaps
 gaps inner 5
 
-output eDP-1 scale 1.25
-output eDP-1 allow_tearing yes
-output eDP-1 max_render_time off
+output eDP-1 scale 1.25 allow_tearing yes max_render_time off
 
 #Wallpaper set
 exec_always "swaybg -i /home/jfaber/a/media/images/wallpapers/wallpaper.jpg -m fill"
