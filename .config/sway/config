@@ -1,6 +1,4 @@
-# Default config for sway
-#
-# Copy this to ~/.config/sway/config and edit it to your liking.
+# jfaber config for sway on laptop
 #
 # Read `man 5 sway` for a complete reference.
 
@@ -222,7 +220,7 @@ bindsym $mod+r mode "resize"
     bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
     # Special key to take a screenshot with grim
-    bindsym Print exec grim
+    #bindsym Print exec grim
 
 #
 # Status Bar:
@@ -236,20 +234,18 @@ bar {
     # The default just shows the current date and time.
 #    status_command while date +'%Y-%m-%d %X'; do sleep 1; done
 
-#    colors {
-#        statusline #ffffff
-#        background #323232
-#        inactive_workspace #32323200 #32323200 #5c5c5c
-#    }
+##    colors {
+##        statusline #ffffff
+##        background #323232
+##        inactive_workspace #32323200 #32323200 #5c5c5c
+##    }
 }
 
 # window gaps
 gaps inner 5
 
+#DISPLAYS
 output eDP-1 scale 1.25 allow_tearing yes max_render_time off
-
-#Wallpaper set
-exec_always "swaybg -i /home/jfaber/a/media/images/wallpapers/wallpaper.jpg -m fill"
 
 # POLKIT
 
@@ -259,5 +255,11 @@ exec lxqt-policykit-agent
 
 exec_always /home/jfaber/a/install/syncthing/syncthing --no-browser
 
+#Wallpaper set
+exec_always "swaybg -i /home/jfaber/a/media/images/wallpapers/wallpaper.jpg -m fill"
+
+#screenshot util
+bindsym Print exec grimshot copy area
+bindsym Shift+Print exec grimshot copy output
 
 include /etc/sway/config.d/*
