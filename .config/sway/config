@@ -253,6 +253,8 @@ exec lxqt-policykit-agent
 
 #syncthing launh
 
+exec bluebuild-flatpak-manager apply all
+
 exec_always /var/home/jfaber/a/install/syncthing/syncthing --no-browser
 
 #Wallpaper set
