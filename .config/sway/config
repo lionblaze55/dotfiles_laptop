@@ -248,21 +248,20 @@ gaps inner 5
 output eDP-1 scale 1.25 allow_tearing yes max_render_time off
 
 # POLKIT
+# Deprecated on atomic-j
+#exec lxqt-policykit-agent
 
-exec lxqt-policykit-agent
+#Network applet\
+exec --no-startup-id nm-applet --indicator
 
-#syncthing launh
-
+# Bluebuild flatpak management
 exec bluebuild-flatpak-manager apply all
 
+#syncthing launch
 exec_always /var/home/jfaber/a/install/syncthing/syncthing --no-browser
 
 #Wallpaper set
 exec_always "swaybg -i /home/jfaber/a/media/images/wallpapers/wallpaper.jpg -m fill"
-
-#lock on sleep
-# Lock the screen before the system goes to sleep/suspend
-exec_always swayidle -w before-sleep 'swaylock -f'
 
 #screenshot util
 bindsym Print exec grimshot copy area
