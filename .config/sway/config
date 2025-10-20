@@ -245,7 +245,6 @@ bar {
 gaps inner 5
 
 #DISPLAYS
-output eDP-1 scale 1.25 allow_tearing yes
 
 # POLKIT
 exec lxqt-policykit-agent
