@@ -4,21 +4,53 @@
   <MidiAlsaRaw device="default"/>
   <MidiJack device="lmms"/>
   <Midialsaseq device="default"/>
-  <app disablebackup="0" openlastproject="0" displaydbfs="0" language="en" configured="1" nanhandler="1" nommpz="0" nomsgaftersetup="0"/>
+  <app disablebackup="0" nomsgaftersetup="0" openlastproject="0" configured="1" displaydbfs="0" language="en" nanhandler="1" nommpz="0"/>
   <audioalsa device="null" channels="2"/>
   <audiojack clientname="lmms" channels="2"/>
   <audiooss device="/dev/dsp" channels="2"/>
   <audiopa device="default" channels="2"/>
-  <audioportaudio device="" backend=""/>
+  <audioportaudio backend="" device=""/>
   <audiosdl device=""/>
   <midioss device="/dev/midi"/>
-  <mixer framesperaudiobuffer="256" mididev="ALSA-Sequencer (Advanced Linux Sound Architecture)" audiodev="SDL (Simple DirectMedia Layer)" hqaudio="0"/>
-  <paths artwork="data:/themes/default/" stkdir="/app/share/stk/rawwaves/" defaultsf2="" vstdir="/home/jfaber/a/media/audio/lmms/plugins/vst/" backgroundartwork="" gigdir="/home/jfaber/a/media/audio/lmms/samples/gig/" laddir="/home/jfaber/a/media/audio/lmms/plugins/ladspa/" sf2dir="/home/jfaber/a/media/audio/lmms/samples/soundfonts/" workingdir="/home/jfaber/a/media/audio/lmms/"/>
+  <mixer audiodev="PulseAudio" mididev="ALSA-Sequencer (Advanced Linux Sound Architecture)" hqaudio="0" framesperaudiobuffer="256"/>
+  <paths workingdir="/home/jfaber/a/media/audio/lmms/" laddir="/home/jfaber/a/media/audio/lmms/plugins/ladspa/" artwork="data:/themes/default/" stkdir="/app/share/stk/rawwaves/" backgroundartwork="" vstdir="/home/jfaber/a/media/audio/lmms/plugins/vst/" defaultsf2="" sf2dir="/home/jfaber/a/media/audio/lmms/samples/soundfonts/" gigdir="/home/jfaber/a/media/audio/lmms/samples/gig/"/>
   <tooltips disabled="0"/>
-  <ui printnotelabels="0" displaywaveform="0" smoothscroll="0" oneinstrumenttrackwindow="0" compacttrackbuttons="0" vstalwaysontop="0" animateafp="1" enablerunningautosave="0" vstembedmethod="xembed" enableautosave="1" syncvstplugins="1" disableautoquit="1" saveinterval="2"/>
+  <ui oneinstrumenttrackwindow="0" printnotelabels="0" vstalwaysontop="0" vstembedmethod="xembed" displaywaveform="0" enableautosave="1" animateafp="1" syncvstplugins="1" smoothscroll="0" compacttrackbuttons="0" saveinterval="2" enablerunningautosave="0" disableautoquit="1"/>
   <recentfiles>
     <file path="data:/projects/templates/default.mpt"/>
-    <file path="/home/jfaber/a/media/audio/lmms/projects/2025firstproj.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/covid11.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/corona10.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/corona9.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/corona8.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/corona5.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/corona4.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/corona3.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/corona1.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/corona6.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/bedbeat2.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/randomstudy.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/trappernew.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/beat101.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/bedbeat3.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/newbeatfat.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/phonkbeat1.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/brotherjohn.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/darkjoshyjnew.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/banger2.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/BANGERALERT.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/firstedm.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/horrorsynth.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/skyrim.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/christmasrevamp.mmpz"/>
     <file path="/home/jfaber/a/media/audio/lmms/projects/2025secondprioj.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/2025firstproj.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/2026firstproj.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/greedo.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/edmbeat1.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/beat3.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/bedbeat1.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/21savagebeat.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/trancework.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/transe2.mmpz"/>
   </recentfiles>
 </lmms>
