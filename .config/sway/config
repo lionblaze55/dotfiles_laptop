@@ -218,6 +218,8 @@ bindsym $mod+r mode "resize"
     # Special keys to adjust brightness via brightnessctl
     bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
+
+    bindsym $mod+Shift+Escape exec swaylock -s fill -i /home/jfaber/a/media/images/wallpapers/wallpaper.jpg
 #
 # Status Bar:
 #
